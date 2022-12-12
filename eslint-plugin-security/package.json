@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "security"
+  ],
+  "author": "Rares and Fabian",
+  "license": "ISC"
+}
