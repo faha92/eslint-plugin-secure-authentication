@@ -1,8 +1,8 @@
 module.exports = {
   rules: {
     "sandbox": require("./lib/rules/sandbox.js"),
-    "https": require("./lib/rules/sandbox.js"),
-    "dangerously": require("./lib/rules/sandbox.js"),
+    "https": require("./lib/rules/sanitize-dangerouslysetinnerhtml.js"),
+    "dangerously": require("./lib/rules/secure-protocols.js"),
   },
   configs: {
     recommended: {
