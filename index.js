@@ -1,16 +1,16 @@
 module.exports = {
   rules: {
     "sandbox": require("./lib/rules/sandbox.js"),
-    "https": require("./lib/rules/sanitize-dangerouslysetinnerhtml.js"),
-    "dangerously": require("./lib/rules/secure-protocols.js"),
+    "sanitize-dangerouslysetinnerhtml": require("./lib/rules/sanitize-dangerouslysetinnerhtml.js"),
+    "secure-protocols": require("./lib/rules/secure-protocols.js"),
   },
   configs: {
     recommended: {
-      plugins: ["researchRules"],
+      plugins: ["react-weblint"],
       rules: {
-        "researchRules/sandbox": 2,
-        "researchRules/https": 2,
-        "researchRules/dangerously": 2,
+        "react-weblint/sandbox": 2,
+        "react-weblint/https": 2,
+        "react-weblint/dangerously": 2,
       },
     },
   },
