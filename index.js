@@ -9,8 +9,8 @@ module.exports = {
       plugins: ["react-weblint"],
       rules: {
         "react-weblint/sandbox": 2,
-        "react-weblint/https": 2,
-        "react-weblint/dangerously": 2,
+        "react-weblint/secure-protocols": 2,
+        "react-weblint/sanitize-dangerouslysetinnerhtml": 2,
       },
     },
   },
