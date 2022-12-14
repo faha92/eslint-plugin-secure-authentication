@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-weblint",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "ESLint security to rule that will ensure safe protocols, sanitize html and enfore safe usage of iframes",
   "main": "index.js",
   "directories": {
