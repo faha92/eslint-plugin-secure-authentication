@@ -16,8 +16,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "security"
+    "Security",
+    "ESLint rules",
+    "Web exploits"
+    
   ],
-  "author": "Rares and Fabian",
+  "author": "Rares Mocanu & Fabian Harlang",
   "license": "ISC"
 }
