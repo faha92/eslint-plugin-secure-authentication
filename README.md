@@ -2,9 +2,7 @@
 
 <h2>Installation</h2>
 
-```npm i eslint-plugin-react-weblint
-
-
+```npm i eslint-plugin-react-weblint```
 
 <h2>Recommended configuration: </h2>
 
