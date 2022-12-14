@@ -10,7 +10,8 @@
   },
   
   "dependencies": {
-  "sanitize-html": "^1.22.2"
+  "sanitize-html": "^1.22.2",
+  "eslint": "^7.3.0"
 },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
