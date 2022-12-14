@@ -1,13 +1,17 @@
 {
-  "name": "eslint-plugin-sandbox",
+  "name": "eslint-plugin-react-weblint",
   "version": "1.0.0",
-  "description": "Sandbox",
+  "description": "ESLint security to rule that will ensure safe protocols, sanitize html and enfore safe usage of iframes",
   "main": "index.js",
   "directories": {
     "doc": "docs",
     "lib": "lib",
     "test": "tests"
   },
+  
+  "dependencies": {
+  "sanitize-html": "^1.22.2"
+}
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
