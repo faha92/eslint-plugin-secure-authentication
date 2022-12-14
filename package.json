@@ -11,7 +11,7 @@
   
   "dependencies": {
   "sanitize-html": "^1.22.2"
-}
+},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
