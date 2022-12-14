@@ -7,6 +7,8 @@ npm i eslint-plugin-react-weblint
 
 
 <h2>Recommended configuration: </h2>
+]
+
 module.exports = {
     "env": {
         "browser": true,
@@ -30,3 +32,5 @@ module.exports = {
     "rules": {
     }
 }
+
+]
