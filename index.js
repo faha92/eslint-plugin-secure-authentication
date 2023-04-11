@@ -6,7 +6,7 @@ module.exports = {
   },
   configs: {
     recommended: {
-      plugins: ["react-weblint"],
+      plugins: ["secure-access"],
       rules: {
         "react-weblint/sandbox": 2,
         "react-weblint/secure-protocols": 2,
