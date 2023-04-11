@@ -2,7 +2,7 @@
 
 <h2>Installation</h2>
 
-```npm i eslint-plugin-react-weblint```
+```npm i eslint-plugin-secure-access```
 
 <h2>Recommended configuration: </h2>
 
