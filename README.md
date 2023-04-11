@@ -2,7 +2,7 @@
 
 <h2>Installation</h2>
 
-```npm i eslint-plugin-react-weblint```
+```npm i eslint-plugin-secure-access```
 
 <h2>Recommended configuration: </h2>
 
@@ -15,7 +15,7 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:react-weblint/recommended"
+        "plugin:secure-access/recommended"
 
     ],
     "overrides": [
@@ -25,7 +25,7 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react", "react-weblint"
+        "react", "secure-access"
     ],
     "rules": {
     }

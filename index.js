@@ -8,9 +8,11 @@ module.exports = {
     recommended: {
       plugins: ["secure-access"],
       rules: {
-        "react-weblint/sandbox": 2,
-        "react-weblint/secure-protocols": 2,
-        "react-weblint/sanitize-dangerouslysetinnerhtml": 2,
+        "secure-access/sandbox": 2,
+        "secure-access/secure-protocols": 2,
+        "secure-access/sanitize-dangerouslysetinnerhtml": 2,
+         "secure-access/check-password-hashing": 2,
+        
       },
     },
   },
