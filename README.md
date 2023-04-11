@@ -15,7 +15,7 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:react-weblint/recommended"
+        "plugin:secure-access/recommended"
 
     ],
     "overrides": [
@@ -25,7 +25,7 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react", "react-weblint"
+        "react", "secure-access"
     ],
     "rules": {
     }
