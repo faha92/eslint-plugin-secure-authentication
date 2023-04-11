@@ -11,6 +11,8 @@ module.exports = {
         "secure-access/sandbox": 2,
         "secure-access/secure-protocols": 2,
         "secure-access/sanitize-dangerouslysetinnerhtml": 2,
+         "secure-access/check-password-hashing": 2,
+        
       },
     },
   },
