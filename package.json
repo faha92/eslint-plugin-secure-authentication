@@ -3,7 +3,7 @@
   "version": "1.4.3",
   "homepage": "https://github.itu.dk/rarm/eslint-plugin-secure-access",
   "url": "https://github.itu.dk/rarm/eslint-plugin-secure-access",
-  "description": "ESLint security to rule that will ensure best practice autenticatoin using passport.js",
+  "description": "ESLint security to rule that will ensure best practice autentication using passport.js",
   "main": "index.js",
   "directories": {
     "doc": "docs",

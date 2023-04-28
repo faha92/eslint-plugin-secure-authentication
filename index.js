@@ -3,6 +3,7 @@ module.exports = {
     sandbox: require("./lib/rules/sandbox.js"),
     "sanitize-dangerouslysetinnerhtml": require("./lib/rules/sanitize-dangerouslysetinnerhtml.js"),
     "secure-protocols": require("./lib/rules/secure-protocols.js"),
+    "check-password-hashing": require("./lib/rules/check-password-hashing.js"),
     "prevent-bruteforce": require("./lib/rules/prevent-bruteforce.js"),
   },
   configs: {
