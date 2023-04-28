@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-secure-access",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "homepage": "https://github.itu.dk/rarm/eslint-plugin-secure-access",
   "url": "https://github.itu.dk/rarm/eslint-plugin-secure-access",
   "description": "ESLint security to rule that will ensure best practice autentication using passport.js",
