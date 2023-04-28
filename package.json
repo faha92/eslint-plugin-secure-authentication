@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-weblint",
-  "version": "1.4.2",
+  "version": "1.4.5",
   "homepage": "https://github.itu.dk/rarm/eslint-plugin-react-weblint",
   "url":"https://github.itu.dk/rarm/eslint-plugin-react-weblint",
   "description": "ESLint security to rule that will ensure safe protocols, sanitize html and enfore safe usage of iframes",
