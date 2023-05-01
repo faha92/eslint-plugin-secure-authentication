@@ -12,12 +12,7 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:secure-access/recommended"
-
-    ],
+    "extends": ["plugin:secure-access/recommended"],
     "overrides": [
     ],
     "parserOptions": {
