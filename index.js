@@ -6,6 +6,9 @@ module.exports = {
     "check-password-hashing": require("./lib/rules/check-password-hashing.js"),
     "prevent-brute-force": require("./lib/rules/prevent-brute-force.js"),
     "enforce-password-policy": require("./lib/rules/enforce-password-policy.js"),
+    "secure-cookie-rule": require("./lib/rules/secure-cookie-rule.js"),
+    "csrf-rule": require("./lib/rules/csrf-rule.js"),
+    "implicit-flow-rule": require("./lib/rules/implicit-flow-rule.js"),
   },
   configs: {
     recommended: {
@@ -17,6 +20,9 @@ module.exports = {
         "secure-access/check-password-hashing": 2,
         "secure-access/prevent-brute-force": 2,
         "secure-access/enforce-password-policy": 2,
+        "secure-access/secure-cookie-rule":2,
+        "secure-access/csrf-rule":2,
+        "secure-access/implicit-flow-rule": 2
       },
     },
   },
