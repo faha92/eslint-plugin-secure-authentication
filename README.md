@@ -19,9 +19,7 @@ module.exports = {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": [
-        "react", "secure-access"
-    ],
+    "plugins": ["secure-access"],
     "rules": {
     }
 };
