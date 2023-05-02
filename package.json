@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-secure-access",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "homepage": "https://github.com/faha92/eslint-plugin-secure-access",
   "url": "https://github.com/faha92/eslint-plugin-secure-access",
   "description": "ESLint security to rule that will ensure best practice autentication using passport.js",
