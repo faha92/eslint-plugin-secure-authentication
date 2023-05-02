@@ -21,7 +21,7 @@ module.exports = {
         "secure-access/sanitize-dangerouslysetinnerhtml": 2,
         "secure-access/check-password-hashing": 2,
         "secure-access/prevent-brute-force": 2,
-         "secure-access/express-rate-limit.js": 2,
+         "secure-access/express-rate-limit": 2,
         "secure-access/enforce-password-policy": 2,
         "secure-access/secure-cookie-rule":2,
         "secure-access/csrf-rule":2,
