@@ -1,8 +1,8 @@
-# eslint-plugin-react-weblint
+# eslint-plugin-secure-authentication
 
 <h2>Installation</h2>
 
-```npm i eslint-plugin-secure-access```
+```npm i eslint-plugin-secure-authentication```
 
 <h2>Recommended configuration: </h2>
 
@@ -12,14 +12,14 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
-    "extends": ["plugin:secure-access/recommended"],
+    "extends": ["plugin:secure-authentication/recommended"],
     "overrides": [
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": ["secure-access"],
+    "plugins": ["secure-authentication"],
     "rules": {
     }
 };
