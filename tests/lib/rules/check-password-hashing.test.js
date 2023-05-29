@@ -1,13 +1,12 @@
 const RuleTester = require("eslint").RuleTester;
-const rule = require("../rules/your-rule");
+const rule = require("../rules/check-password-hashing");
 
 const ruleTester = new RuleTester({
-  parserOptions: { ecmaVersion: 2022, sourceType: "module" } // Make sure to adjust this according to your needs
+  parserOptions: { ecmaVersion: 2022, sourceType: "module" } // Adjust this according to your needs
 });
 
-ruleTester.run("your-rule", rule, {
+ruleTester.run("check-password-hashing", rule, {
   valid: [
-    // Example of correct usage: password is hashed before being saved to the object
     {
       code: `
         const bcrypt = require("bcryptjs");
@@ -16,7 +15,6 @@ ruleTester.run("your-rule", rule, {
         const user = { username: "user", password: hashedPassword };
       `
     },
-    // Example of correct usage: no password is used
     {
       code: `
         const user = { username: "user", email: "user@example.com" };
@@ -25,7 +23,6 @@ ruleTester.run("your-rule", rule, {
   ],
 
   invalid: [
-    // Example of incorrect usage: password is saved in plain text
     {
       code: `
         const password = "plain-text-password";
@@ -36,7 +33,6 @@ ruleTester.run("your-rule", rule, {
           message: "Do not use plain text passwords. Use hashed passwords instead."
         }
       ],
-      // Expected output after the fix
       output: `
         // importing bcrypt 
         const bcrypt = require("bcryptjs");
