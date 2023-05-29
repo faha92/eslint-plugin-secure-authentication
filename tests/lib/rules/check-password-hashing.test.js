@@ -1,5 +1,5 @@
 const RuleTester = require("eslint").RuleTester;
-const rule = require("../../lib/rules/check-password-hashing");
+const rule = require("../../../lib/rules/check-password-hashing");
 
 
 const ruleTester = new RuleTester({
