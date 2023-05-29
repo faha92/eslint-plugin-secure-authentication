@@ -1,5 +1,6 @@
 const RuleTester = require("eslint").RuleTester;
-const rule = require("../rules/check-password-hashing");
+const rule = require("../../lib/rules/check-password-hashing");
+
 
 const ruleTester = new RuleTester({
   parserOptions: { ecmaVersion: 2022, sourceType: "module" } // Adjust this according to your needs
