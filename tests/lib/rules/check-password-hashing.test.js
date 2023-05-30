@@ -8,6 +8,7 @@ const ruleTester = new RuleTester({
 });
 // Running the tests
 // Running the tests
+//
 ruleTester.run("check-password-hashing", rule, {
   valid: [
     {
