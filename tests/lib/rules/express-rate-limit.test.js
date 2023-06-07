@@ -8,7 +8,7 @@ const ruleTester = new RuleTester({
   }
 });
 
-ruleTester.run('your-rule-name', rule, {
+ruleTester.run('express-rate-limit', rule, {
   valid: [
     {
       code: `
