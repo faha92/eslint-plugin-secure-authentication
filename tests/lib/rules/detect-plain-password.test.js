@@ -1,6 +1,6 @@
 // Importing necessary libraries
 const RuleTester = require("eslint").RuleTester;
-const rule = require("../../../lib/rules/detect-plain-password");
+const rule = require("../../../lib/rules/detect-plaintext-password");
 
 // Instantiating the RuleTester
 const ruleTester = new RuleTester({
@@ -9,7 +9,7 @@ const ruleTester = new RuleTester({
 // Running the tests
 // Running the tests
 //
-ruleTester.run("detect-plain-password", rule, {
+ruleTester.run("detect-plaintext-password", rule, {
   valid: [
     {
       code: `
