@@ -1,4 +1,4 @@
-const rule = require('path_to_your_rule_file');
+const rule = require('../../../lib/rules/prevent-brute-force');
 const RuleTester = require('eslint').RuleTester;
 
 const ruleTester = new RuleTester({ 
